@@ -1,0 +1,56 @@
+{
+    "main": "INDEX.html",
+    "name": "echo-calc",
+    "description": "ECHO Studio Calculator",
+    "version": "0.0.1",
+    "keywords": [ "ECHO-CALC", "Node-WebKit" ],
+
+    "window": {
+
+      "title": "ECHO CALCULATOR",
+      "icon": "FAVICON.png",
+      "toolbar": false,
+      "frame": false,
+      "transparent": true,
+      "position": "center",
+      "show_in_taskbar": true,
+      "resizable": false,
+
+      "width": 400,
+      "min_width": 400,
+      "max_width": 400,
+
+      "height": 500,
+      "min_height": 500,
+      "max_height": 500
+
+    },
+
+    "webkit": {
+
+      "plugin": true
+
+    },
+
+    "maintainers":[ {
+        "name": "Bill Bloggs",
+        "email": "billblogs@bblogmedia.com",
+        "web": "http://www.bblogmedia.com"
+     }],
+
+     "licenses": [
+        {
+            "type": "GPLv2",
+            "url": "http://www.example.com/licenses/gpl.html"
+        }
+     ],
+
+     "repositories": [
+        {
+             "type": "git", 
+             "url": "http://github.com/example.git",
+             "path": "packages/mypackage"
+        }
+    ]
+
+  }
